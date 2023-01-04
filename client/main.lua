@@ -15,11 +15,11 @@ soundvolume = 0
 menuLocation = 'topright' -- e.g. topright (default), topleft, bottomright, bottomleft
 menuSize = 'size-125' -- e.g. 'size-100', 'size-110', 'size-125', 'size-150', 'size-175', 'size-200'
 r, g, b = 3, 30, 84 -- red, green, blue values for the menu background https://www.w3schools.com/colors/colors_rgb.asp
-title = "BocaRaton RP" -- Config Banner Text
+title = "CHANGE ME" -- Config Banner Text
 
 --false, Lang:t("menu.admin_menu")
 
-MainMenu = MenuV:CreateMenu(title, "BocaRaton RP Admin Menu", menuLocation, r, g, b, menuSize, 'default', 'menuv', 'qb-admin:mainmenu')
+MainMenu = MenuV:CreateMenu(title, Lang:t("menu.admin_menu"), menuLocation, r, g, b, menuSize, 'default', 'menuv', 'qb-admin:mainmenu')
 SelfMenu = MenuV:CreateMenu(title, Lang:t("menu.admin_options"), menuLocation, r, g, b, menuSize, 'default', 'menuv', 'qb-admin:selfmenu')
 PlayerMenu = MenuV:CreateMenu(title, Lang:t("menu.online_players"), menuLocation, r, g, b, menuSize, 'default', 'menuv', 'qb-admin:playermenu')
 PlayerDetailMenu = MenuV:CreateMenu(title, Lang:t("info.options"), menuLocation, r, g, b, menuSize, 'default', 'menuv', 'qb-admin:playerdetailmenu')

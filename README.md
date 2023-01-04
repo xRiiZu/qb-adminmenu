@@ -13,9 +13,9 @@ I just took the menu from the qb-core framework and reworked it with a lot more 
     - Give Item
     - Play sound
     - View food, water, stress, and armor in %
-    - Crafting and Dealer Rep
-    - Cash and Bank Balance
-    - Current gang
+    - View Crafting and Dealer Rep
+    - View Cash and Bank Balance
+    - View Current gang
 
 
 # Dependencies

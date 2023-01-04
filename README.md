@@ -1,4 +1,4 @@
-#QB_AdminMenu
+# QB_AdminMenu
 I just took the menu from the qb-core framework and reworked it with a lot more options to help moderate the server from a simple menu. Some of the additional options I have added are below
 # Options
 1. Self Options

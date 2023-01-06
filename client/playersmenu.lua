@@ -402,6 +402,7 @@ local function OpenSetMoneyMenu(player)
         select = function(btn)
             if moneytype ~= 'Unknown' and moneyamount ~= 0 then
                 TriggerServerEvent('QBCore:CallCommand', "setmoney", {player.id, moneytype, moneyamount})
+
                 moneytype = 'Unknown'
                 moneyamount = 0
             else
